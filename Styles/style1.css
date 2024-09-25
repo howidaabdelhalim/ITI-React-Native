@@ -1,0 +1,89 @@
+body{
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+legend{
+    color: red;
+    font-family: cursive;
+}
+
+table {
+    margin: 50px auto;
+    padding: 20px;
+    border: 40px groove palevioletred;
+    border-radius: 5px;
+    box-shadow: 900px;
+    width: 60%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+.input-group {
+    width: 100%;
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0;
+    height: 100%;
+    border: none;
+    box-shadow: 5px;
+}
+
+.bordered-cell {
+    border: 3.6px groove palevioletred;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #c0c0c0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+
+input[type="submit"]:hover {
+    background-color: #a9a9a9;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group label {
+    margin-bottom: 5px; 
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.checkbox-group label {
+    width: 45%;
+    margin: 5px 0;
+}
+
+optgroup[label] {
+    font-style: italic;
+}
+
+

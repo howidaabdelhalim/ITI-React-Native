@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../Styles/style1.css"> <!--relation => stylesheet -->
+</head>
+<body>
+    <form action="../Pages/first_page.html">
+        <fieldset>
+            
+            <legend>Login</legend> 
+            
+            <div>
+                <label for="username">User Name:</label>
+                <input type="text" placeholder="Enter Your User name here!">
+            </div>
+
+            <div style="margin-top: 5px;">
+                <label for="password">PassWord:</label>
+                <input type="password">
+            </div>
+
+            <label>Select Your Location:</label>
+            <select>
+                <option hidden>Location</option>
+                <optgroup label="Africa">
+                    <option>Egypt</option>
+                    <option>Sudan</option>
+                    <option>Namibia</option>
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option>France</option>
+                    <option>Russia</option>
+                    <option>United Kingdom</option>
+                </optgroup>
+
+                <optgroup label="North America" disabled>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                    <option>United States of America</option>
+                </optgroup>
+                
+            </select> <br>
+            <input type="checkbox">
+            <label> Remember<u>M</u>e</label>
+            <br> <br>
+            <input type="submit" value="LogIn"> 
+        </fieldset>
+    </form>
+</body>
+</html>

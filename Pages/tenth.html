@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 Task 1</title>
+</head>
+<body>
+    <form action="../Pages/second_welcome.html" >
+        <label for="name">Enter your Name: </label>
+        <input type="text" id="name" name="name"> <br> <br>
+
+        <label for="age">Enter your Age: </label>
+        <input type="text" id="age" name="age"> <br> <br>
+        
+        <label for="gender">Select your Gender: </label>
+        <br> <br>
+        <label>
+            <input type="radio" name="gender" value="male" id="male">
+            <img src="../Images/cookie1.jpg" alt="Male">
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="female" id="female">
+            <img src="../Images/cookie2.jpg" alt="Female">
+        </label>
+        <br><br>
+
+        <label for="color">Select your favorite color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br> <br>
+        <input type="submit" value="Register">
+    </form>
+
+    <script src="../Scripts/cookies.js"></script>
+    
+</body>
+</html>

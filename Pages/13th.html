@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Bands</title>
+</head>
+<body>
+    <label for="bands">Band: </label>
+    <select id="bands" onchange="updateArtists()">
+        <option value="">Please select</option>
+    </select>
+
+    <label for="artists">Artist: </label>
+    <select id="artists" onchange="openArtistLink()">
+        <option value="">Please select</option>
+    </select>
+
+    <div id="container"></div>
+
+    <script src="../Scripts/rockBands.js"></script>
+</body>
+</html>

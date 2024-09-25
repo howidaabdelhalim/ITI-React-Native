@@ -1,0 +1,25 @@
+html, body {
+    background: linear-gradient(135deg, #2790eb, #7f51c0); 
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.marble {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s;
+}
+
+.marble:hover {
+    transform: scale(1.1); 
+}

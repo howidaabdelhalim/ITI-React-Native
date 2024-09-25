@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(135deg, #e3f2fd, #094270); 
+}
+
+.form-container {
+    background-color: #ebf9ff; 
+    border: 1px solid #447ac5; 
+}
+
+h2 {
+    color: #1334a0; 
+}
+
+.form-control {
+    border-color: #1334a0; 
+}
+
+.btn-submit {
+    background-color: #0c3d72; 
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #092954; 
+}
+
+.form-label {
+    color: #092954; 
+}
+
+.form-select {
+    border-color: #1334a0;
+}
