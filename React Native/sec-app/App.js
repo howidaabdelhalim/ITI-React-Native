@@ -1,3 +1,4 @@
+//Contact List Task
 import React from 'react';
 import { View } from 'react-native';
 import UserList from './components/UserList';
@@ -53,7 +54,7 @@ export default App;
 
 
 
-
+// Colors Task
 // import { StatusBar } from 'expo-status-bar';
 // import React from 'react';
 // import { View, FlatList, Text } from 'react-native';
